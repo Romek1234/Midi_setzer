@@ -15,7 +15,7 @@ PCF8574 expander10;
 PCF8574 expander11;
 PCF8574 expander12;
 
-const int cmdOn = 0x93; // definicja stałej okresłajacej komendę noteON for chanel 4 ( 0x80 dla kanał 1)
+const int cmdOn = 0x93; // definicja stałej okresłajacej komendę noteON for chanel 4 ( 0x90 dla kanał 1, a np. 0x91 dla kanału 2)
 const int cmdOff = 0x83; // definicja stałej okresłajacej komendę noteON for for chanel 4 ( 0x80 dla kanał 1)
 
 byte a;
